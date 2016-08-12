@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Магазин Барбершоп «Бородинский»</title>
+  </head>
+  
+  <body class="shop">
+  
+    <header class="main-header">
+      <div class="container">
+        
+        <div class="menu-logo">
+          <img src="#" width="1200" height="72" alt="Барбершоп «Бородинский»">
+        </div>
+        
+        <nav calss="main-menu">
+          <ul>
+            <li>
+              <a href="#">Информация</a>
+            </li>
+            <li>
+              <a href="#">Новости</a>
+            </li>
+            <li>
+              <a href="#">Прайс-лист</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li>
+              <a href="#">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        
+        <div class="user-block">
+          <a class="login" href="#">Вход</a>
+        </div>
+        
+      </div>
+    </header>
+    
+    <main class="main-contanet">
+      <div class="container">
+        
+        <h1 class="main-title">Средства для ухода</h1>
+        
+        <div class="breadcrumbs">
+          <ul>
+            <li>
+              <a href="#">Главная</a>
+            </li>
+            <li>
+              <a href="#">Магазин</a>
+            </li>
+            <li class="active">
+              Средства для ухода
+            </li>
+          </ul>
+        </div>
+        
+        <form class="filter-form content-left" action="https://echo.htmlacademy.ru" method="post">
+          
+          <fieldset class="manufacturer-filter">
+            <legend class="filter-title">Производители</legend>
+            <ul>
+              <li class="form-item">
+                <input type="checkbox" name="baxter-of-california" id="baxter-of-california-field" checked>
+                <label for="baxter-of-california-field">Baxter of California</label>
+              </li>
+              <li class="form-item">
+                <input type="checkbox" name="mr-natty" id="mr-natty-field">
+                <label for="mr-natty-field">Mr Natty</label>
+              </li>
+              <li class="form-item">
+                <input type="checkbox" name="suavecito" id="suavecito-field" checked>
+                <label for="suavecito-field">Suavecito</label>
+              </li>
+              <li class="form-item">
+                <input type="checkbox" name="malin-goetz" id="malin-goetz-field">
+                <label for="malin-goetz-field">Malin+Geotz</label>
+              </li>
+              <li class="form-item">
+                <input type="checkbox" name="murrays" id="murrays-field">
+                <label for="murrays-field">Murray's</label>
+              </li>
+              <li class="form-item">
+                <input type="checkbox" name="american-crew" id="american-crew-field" checked>
+                <label for="american-crew-field">American Crew</label>
+              </li>
+            </ul>
+          </fieldset>
+          
+          <fieldset class="goods-group-filter">
+            <legend class="filter-title">Группы товаров:</legend>
+            <ul>
+              <li class="form-item">
+                <input type="radio" name="goods-group" value="shaving" id="shaving-field">
+                <label for="shaving-field">Бритвенные принадлежности</label>
+              </li>
+              <li class="form-item">
+                <input type="radio" name="goods-group" value="care" id="care-field" checked>
+                <label for="care-field">Средства для ухода</label>
+              </li>
+              <li class="form-item">
+                <input type="radio" name="goods-group" value="accessories" id="accessories-field">
+                <label for="accessories-field">Аксессуары</label>
+              </li>
+            </ul>
+          </fieldset>
+          
+          <button type="submit" class="btn">Показать</button>
+        </form>
+        
+        <div class="search-result content-right">
+          
+          <article class="result-item">
+            <figure class="item-image">
+              <img src="#" width="220" height="165" alt="Набор для путешествий «Baxter of California»" title="Набор для путешествий «Baxter of California»">
+              <figcaption>Набор для путешествий «Baxter of California»</figcaption>
+            </figure>
+            <span class="item-price">2 900 РУБ.</span>
+            <a class="btn" href="#">Купить</a>
+          </article>
+          
+          <article class="result-item">
+            <figure class="item-image">
+              <img src="#" width="220" height="165" alt="Увлажняющий кондиционер «Baxter of California»" title="Увлажняющий кондиционер «Baxter of California»">
+              <figcaption>Увлажняющий кондиционер «Baxter of California»</figcaption>
+            </figure>
+            <span class="item-price">750 РУБ.</span>
+            <a class="btn" href="#">Купить</a>
+          </article>
+          
+          <article class="result-item">
+            <figure class="item-image">
+              <img src="#" width="220" height="165" alt="Гель для волос «SUAVECITO»" title="Гель для волос «SUAVECITO»">
+              <figcaption>Гель для волос «SUAVECITO»</figcaption>
+            </figure>
+            <span class="item-price">290 РУБ.</span>
+            <a class="btn" href="#">Купить</a>
+          </article>
+          
+          <article class="result-item">
+            <figure class="item-image">
+              <img src="#" width="220" height="165" alt="Глина для укладки волос 
+«American crew»" title="Глина для укладки волос «American crew»">
+              <figcaption>Глина для укладки волос «American crew»</figcaption>
+            </figure>
+            <span class="item-price">500 РУБ.</span>
+            <a class="btn" href="#">Купить</a>
+          </article>
+          
+          <article class="result-item">
+            <figure class="item-image">
+              <img src="#" width="220" height="165" alt="Гель для волос «AMERICAN CREW»" title="Гель для волос «AMERICAN CREW»">
+              <figcaption>Гель для волос «AMERICAN CREW»</figcaption>
+            </figure>
+            <span class="item-price">300 РУБ.</span>
+            <a class="btn" href="#">Купить</a>
+          </article>
+          
+          <article class="result-item">
+            <figure class="item-image">
+              <img src="#" width="220" height="165" alt="Набор для бритья «Baxter of California»" title="Набор для бритья «Baxter of California»">
+              <figcaption>Набор для бритья «Baxter of California»</figcaption>
+            </figure>
+            <span class="item-price">3 900 РУБ.</span>
+            <a class="btn" href="#">Купить</a>
+          </article>
+          
+          <div class="paging">
+            <ul>
+              <li>
+                <a href="#">1</a>
+              </li>
+              <li class="active">
+                2
+              </li>
+              <li>
+                <a href="#">3</a>
+              </li>
+              <li>
+                <a href="#">4</a>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      
+      </div>
+    </main>
+    
+    <footer class="main-footer">
+      <div class="container">
+        <section class="footer-contacts">
+          Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+        </section>
+        <section class="footer-social">
+          <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+        </section>
+        <section class="footer-copyright">
+          <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+        </section>
+      </div>
+    </footer>
+    
+  </body>
+</html>
